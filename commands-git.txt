@@ -13,3 +13,13 @@ git clone "adresse du repository"
 ➔ La commande qui permet de pull
 
     git pull 
+
+➔ Créer une branche (via terminal)
+
+    git branch "nom de la branche"
+
+➔ Changer de branche (via terminal)
+
+    git checkout "nom de la branche"
+
+    
