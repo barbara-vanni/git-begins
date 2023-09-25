@@ -11,15 +11,36 @@ git clone "adresse du repository"
     git push  
 
 ➔ La commande qui permet de pull
+Pour fusionner toutes les modifications présentes sur le dépôt distant dans le répertoire de travail local
 
     git pull 
 
 ➔ Créer une branche (via terminal)
+La commande git branch peut être utilisée pour répertorier, créer ou supprimer des branches.
 
     git branch "nom de la branche"
+
 
 ➔ Changer de branche (via terminal)
 
     git checkout "nom de la branche"
 
-    
+
+[!!][!!] 
+➔ Nouvelle branche
+Ici nous créons la branche en local, quand nous allons push il va falloir lui faire comprendre qu'on veut que 
+celle-ci soit aussi en distant(upstream branch). Pendant le push, il va nous afficher un message nous disant d'entrer :
+
+    git push --set-upstream origin add-create-branch-command
+
+Il suffit de le copier/coller pour ensuite faire des push classique sur notre repository Github
+[!!][!!]
+
+
+➔ Et quand on voudra merge les branche
+Quand on voudra faire en sorte de fusionner la branche "add-create-branch-command" à notre branche "Main".
+On utilisera la commande merge depuis la branche où on veut la fusion 
+
+    git merge "nom de la branche que l'on veut merge dans celle qu'on est"
+
+
