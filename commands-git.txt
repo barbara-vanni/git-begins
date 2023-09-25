@@ -9,3 +9,7 @@ git clone "adresse du repository"
     git add . 
     git commit -m "ton message"
     git push  
+
+➔ La commande qui permet de pull
+
+    git pull 
